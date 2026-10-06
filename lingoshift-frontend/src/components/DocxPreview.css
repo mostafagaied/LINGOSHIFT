@@ -1,0 +1,10 @@
+.docx-wrapper {
+  background: transparent;
+  padding: 0;
+}
+
+.docx-wrapper > section.docx {
+  margin: 0 auto 16px auto;
+  box-shadow: none;
+  border: none;
+}

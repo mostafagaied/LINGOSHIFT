@@ -1,0 +1,28 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Build output
+.dist/
+dist/
+build/
+
+# User-uploaded and generated files (may contain private documents)
+uploads/*
+!uploads/.gitkeep
+
+
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
